@@ -1,0 +1,4 @@
+name='Sabari'
+age=25 
+email= 'stsabarinatht5@gmail.com'
+print('My name is ().My age is ().My email-id is ()'.format(name,age,email))
