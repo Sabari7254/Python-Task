@@ -1,0 +1,6 @@
+list=[10,20,30,40,60]
+product=1
+index=0
+while index<len(list):
+    product=product*list[index]
+    index=index+1
