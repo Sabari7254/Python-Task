@@ -1,0 +1,13 @@
+def square(n):
+square=n*n
+return square
+
+num=input("Enter the number:")
+def square(num):
+if type(num)==str:
+  print("Please enter only integer or float values")
+   return 0
+num=int(num)
+return num**2
+s=square(num)
+print("Number is {}, square is {}".format(num,s))
