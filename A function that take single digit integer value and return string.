@@ -1,0 +1,5 @@
+def intTostring(val):
+lst=["zero","one","two","three","four","five","six","seven","eight","nine"]
+return lst[val]
+value=int(input("Enter single digit number"))
+print(intTostring(value))
