@@ -1,0 +1,14 @@
+def Prime(lst):
+string List=[]
+for i in range len(lst):
+  num=lst[i]
+  flag=false if num==1:
+for j in range(2,num//2):
+  if num%j==0:
+    flag=True
+    break
+  if flag==True
+    stringList.append("Not Prime")
+  else
+    stringList.append("Prime")
+  return stringList
